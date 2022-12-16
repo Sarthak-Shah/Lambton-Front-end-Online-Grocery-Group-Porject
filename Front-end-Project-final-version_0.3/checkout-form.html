@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!---->
+    <link rel="stylesheet" href="./styles/home-styles.css">
+    <link rel="stylesheet" href="./styles/item_categories.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/checkout-form.css">
+</head>
+<body>
+    <header>
+      
+        <a href="./index.html">
+            <img src="./assets/images/logo-image.png" class="logo-image">
+        </a>
+        <span class="search">
+            <input class="search-textbox" type="search" placeholder="Search">
+        </span>
+        <nav>
+            <ul>
+                <li class="nav-links"><a class="nav-link"  href="#">Orders & Returns</a></li>
+                <li class="nav-links"><a class="nav-link"  target="_blank" href="sign-in.html">Sign In / Register</a></li>
+                <li class="nav-links"><a class="nav-link"  target="_blank" href="./checkout-form.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    Cart
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="second-nav">
+        <nav>
+            <ul>
+                <li class="nav-links"><a class="nav-link"  href="./index.html"> <i class="fa fa-home icons"></i>Home</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./about.html">About Us</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./grocery.html">Groceries</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./electronics.html">Electronics</a></li>
+          
+                <li class="nav-links"><a class="nav-link" href="./furniture.html">Furniture</a></li>
+                <li class="nav-links"><a class="nav-link" href="./nutrition_wellness.html">Nutrition & Wellness</a></li>
+                <li class="nav-links"><a class="nav-link" href="./personal_care.html">Personal Care</a></li>
+            
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Banner Image -->
+
+
+<!-- checkout section -->
+<section class="shopping-cart">
+    <h1 class="header-bar" style="text-align:center;">Shopping Cart</h1>
+
+
+
+    <form style="margin-top:2rem;">
+        <table>
+            <tr class="tr-head">
+                <th><b>Item</b></th>
+                <th><b>Description</b></th>
+                <th><b>Price</b></th>
+            </tr>
+           
+           
+            
+
+
+            <tr class="tr-rows">
+
+                
+                <th>
+                    <input type="checkbox"  checked>
+                    <img id="img1" class="checkout-images" src="./assets/images/electronics/tv.jpg" alt="QLED TV">
+                   
+                </th>
+                <th class="align-left">
+                    Introducing Brand new Samsung 55" 4k QLED Smart TV
+                      
+                    <p>
+                      <span style="color:green;">In stock</span>
+                    </p>
+                    <p>
+                        <span class="in-stock">Ships from and sold by Allmart.ca</span>
+                    
+                    </p>
+                    <p>
+                        <input type="checkbox"> This will be a gift.
+                    </p>
+                  
+                    <p>
+                        <input type="checkbox"> Pay in 12 monthly payments of $ 128.17
+
+                    </p>
+                    <p>
+                        <b>Size : </b> 55-inch
+                    </p>
+
+                    <span>
+                        <button id="add_remove" type="button"> - </button>
+                        <input type="text" name="quantity" maxlength="2" size="1" value="0">
+                        <button id="add_remove" type="button">+</button>
+                        
+                        &ensp;|&ensp;
+                        
+                        <a href="#">Delete</a>
+                        
+                        &ensp;|&ensp;
+                        
+                        <a 
+                        href="#"
+                        style="text-decoration:#00BFFF;"
+                        >Save for later</a>
+                    </span> 
+                </th>
+
+
+                <th>$1538</th>
+            </tr>
+
+            <tr class="tr-rows">
+
+                
+                <th>
+                    <input type="checkbox"  checked>
+                    <img id="img1" class="checkout-images" src="./assets/images/furniture/tv_stand.jpg" alt="TV stand">
+                   
+                </th>
+                <th class="align-left">
+                    Modern Entertainment Center, TV Stand. Made by the sturdy wood from Deodar tree.
+                    Known for the best quality over the world.
+                      
+                    <p>
+                      <span style="color:green;">In stock</span>
+                    </p>
+                    <p>
+                        <span class="in-stock">Ships from and sold by Allmart.ca</span>
+                    
+                    </p>
+                    <p>
+                        <input type="checkbox"> This will be a gift.
+                    </p>
+                  
+                    <p>
+                        <input type="checkbox"> Pay in 12 monthly payments of $ 13.66
+
+                    </p>
+                    <p>
+                        <b>Size : </b> 120-inch
+                    </p>
+
+                    <span>
+                        <button id="add_remove" type="button"> - </button>
+                        <input type="text" name="quantity" maxlength="2" size="1" value="0">
+                        <button id="add_remove" type="button">+</button>
+                        
+                        &ensp;|&ensp;
+                        
+                        <a href="#">Delete</a>
+                        
+                        &ensp;|&ensp;
+                        
+                        <a 
+                        href="#"
+                        style="text-decoration:#00BFFF;"
+                        >Save for later</a>
+                    </span> 
+                </th>
+
+
+                <th>$163.97</th>
+            </tr>
+            <tr>
+            
+               <td></td>
+               <td></td>
+               
+                <td>
+                    <h3>Amount before tax :  $ 1709.97 </h3>
+                    <h3>Tax : $ 221.25 </h3> 
+                    <h3> Total amount payable :  $ 1923.22 </h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                   <h1> <strong>Select a Shipping Address</strong></h1>
+                    <input type="radio" name="addr">&ensp;115 West Mall Eva Road, Ottawa, M9C 4W4, Ontario
+                    <br><br><br>
+                    <input type="radio" name="addr">&ensp;215 East Mall Jeeva Road, Ottawa, A6D 2W2, Ontario
+
+                    <br><br><br>
+                    <button type="submit" 
+                        id="shipto" name="shipto" 
+                    class="shipto-btn">Deliver to this Address</button> 
+                    <br>
+                    <br>
+
+                   
+                </td>
+            </tr>
+
+
+          
+        </table>
+    </form>
+
+</section>
+
+
+
+
+<!-- ***** Back to top Section *****-->
+
+<section style="margin:0;padding:0; background-color:#e31b6d;" 
+    onclick="backtotop()" 
+    class="backtotop">
+    <h2 style="text-align: center;padding:1rem; color:#fff; margin:0;">
+        <span class="fa fa-angle-double-up spanarrow">
+        </span>
+        Back to top
+    </h2>
+</section>
+
+
+
+
+
+
+<!-- ** Footer **  --->
+<footer>
+    <section class="page-footer">
+
+       
+       <div class="quick-links">
+            <h2 class="text-center"> Quick Links</h2>
+            <ul class="footer-quick-links">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="./sign-in.html">Sign in</a>
+                </li>
+
+                <li>
+                    <a href="./site-map.html">SiteMap</a>
+                </li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+       
+       
+        </div>
+        <!-- Connect with us Section -->
+        <div class="quick-links">
+            <h2 class="text-center">Connect with Us</h2>
+            <ul>
+                
+                <li>
+                    <i class="fa fa-map-marker" 
+                    style="color:#FF0000;
+                    font-size: 1.5rem;
+                    padding: 1.05rem;"></i> 30 Mclaren Drive, L4H 5A1, Ottawa, Canada 
+                  
+
+
+                </li>
+                <li>
+                    <i class="fa fa-phone" 
+                    style="
+                    color:#00BFFF;
+                    font-size: 1.5rem;
+                    padding: 1.05rem;"></i> +1 (647)-867-4343
+                </li>
+                
+            </ul>
+
+           <div class="contactus">
+           
+            <li class="list-inline-item">
+                <a href="mailto:confusion@food.net" 
+                    target="_blank"
+                 type="button" class="button fb">
+                <span class="fa fa-envelope fa-2x spin"></span>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://www.twitter.com/elonmusk" 
+                    target="_blank"
+                    type="button" class="button fb">
+                  <span class="fa fa-twitter fa-2x spin"></span>
+                </a>
+            </li>
+           
+          
+           <li class="list-inline-item">
+            <a href="https://www.facebook.com/" 
+                target="_blank"    
+                type="button" class="button fb">
+              <span class="fa fa-facebook fa-2x spin"></span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/" 
+                target="_blank"
+                type="button" class="button fb">
+              <span class="fa fa-instagram fa-2x spin"></span>
+            </a>
+          </li>
+        
+        </div>
+       
+       
+        </div>
+
+
+        <!-- ** GET UPDATES ** -->
+        <div class="quick-links">
+            <h2 class="text-center"> Get Updates</h2>
+            
+            <form class="get-updates"> 
+                <input type="email" class="form-control" id="inputEmail"
+                    style="width:13rem;height:1.8rem;"
+                placeholder="name@email.com"
+                 data-error="Bruh, that email address is invalid" required>
+                  <br>
+               
+                <div class="submit-btn">
+            
+                    <button type="submit" 
+                        name="submit" 
+                        style="margin-top:1rem;"
+                        class="form-btn submit-footer">Send Message</button> 
+                </div>
+            </form>
+    
+       
+       
+        </div>
+
+       
+       
+    </section> 
+    <div class="footer-copyright text-center ">
+        © All Copyrights are reserved by All Mart Corporations
+    </div>
+   
+
+</footer>
+
+<script>
+    function backtotop() {
+        // window.location.reload();
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+</html>

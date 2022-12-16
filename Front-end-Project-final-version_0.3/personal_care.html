@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Care</title>
+
+    <!---->
+    <link rel="stylesheet" href="./styles/home-styles.css">
+    <link rel="stylesheet" href="./styles/item_categories.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+      
+        <a href="./index.html">
+            <img src="./assets/images/logo-image.png" class="logo-image">
+        </a>
+        <span class="search">
+            <input class="search-textbox" type="search" placeholder="Search">
+        </span>
+        <nav>
+            <ul>
+                <li class="nav-links"><a class="nav-link"  href="#">Orders & Returns</a></li>
+                <li class="nav-links"><a class="nav-link"  target="_blank" href="sign-in.html">Sign In / Register</a></li>
+                <li class="nav-links"><a class="nav-link"  target="_blank" href="./checkout-form.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    Cart
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="second-nav">
+        <nav>
+            <ul>
+                <li class="nav-links"><a class="nav-link"  href="./index.html"> <i class="fa fa-home icons"></i>Home</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./about.html">About Us</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./grocery.html">Groceries</a></li>
+                <li class="nav-links"><a class="nav-link"  href="./electronics.html">Electronics</a></li>
+          
+                <li class="nav-links"><a class="nav-link" href="./furniture.html">Furniture</a></li>
+                <li class="nav-links"><a class="nav-link" href="./nutrition_wellness.html">Nutrition & Wellness</a></li>
+                <li class="nav-links"><a class="nav-link" href="./personal_care.html">Personal Care</a></li>
+            
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Banner Image -->
+
+<section class="banner-section">
+    <img src="./assets/images/personal_care/personal_care.jpg" alt="Image not found">
+</section>
+
+<!-- main nutrition_wellness section -->
+<main>
+    <section id="items">
+        <h1 class="header-bar">Personal Care</h1>
+
+        <form>
+        <table>
+            <!-- item images -->
+            <tr>
+                <th>
+                    <img id="img1" class="item-images" src="./assets/images/personal_care/shampoo.jpg" alt="Shampoo">
+                </th>
+                <th>
+                    <img id="img2" class="item-images" src="./assets/images/personal_care/petroleum_jelly.png" alt="Petroleum Jelly">
+                </th>
+                <th>
+                    <img id="img3" class="item-images" src="./assets/images/personal_care/body_wash.jpg" alt="Body Wash">
+                </th>
+            </tr>
+
+            <!-- item price, name, quantity and description -->
+            <tr>
+                <!-- item 1 -->
+                <td class="item-descriptions">
+                    <p id="alert"></p>
+                    <p id="price">&dollar;9.46</p><br>
+                    <p id="packing">500ml Shampoo + Conditioner</p><br>
+                    <p id="name">Brand!<br>
+                    Men Fresh Clean 2-in-1 Shampoo</p>
+                    <p><button id="add_to_cart" type="button">Add To Cart</button><br>
+                        <button id="add_remove" type="button"> - </button>
+                        <input type="text" name="quantity" maxlength="2" size="1" value="0">
+                        <button id="add_remove" type="button">+</button>
+                    </p>
+                        <details>
+                            <summary>View Details</summary>
+                            Something small enough to escape casual notice.
+                        </details>
+                    <p>
+                </td>
+                <!-- item 2 -->
+                <td class="item-descriptions">
+                    <p id="alert">Almost sold out online!</p>
+                    <p id="price">&dollar;3.27</p><br>
+                    <p id="packing">250g Unscented Petroleum Jelly</p><br>
+                    <p id="name">Brand!<br>
+                    Original Petroleum Jelly</p>
+                    <p><button id="add_to_cart" type="button">Add To Cart</button><br>
+                        <button id="add_remove" type="button"> - </button>
+                        <input type="text" name="quantity" maxlength="2" size="1" value="0">
+                        <button id="add_remove" type="button">+</button>
+                    </p>
+                        <details>
+                            <summary>View Details</summary>
+                            Something small enough to escape casual notice.
+                        </details>
+                    <p>
+                </td>
+                <!-- item 3 -->
+                <td class="item-descriptions">
+                    <p id="alert"></p>
+                    <p id="price">&dollar;7.88</p><br>
+                    <p id="packing">750ml Body Wash</p><br>
+                    <p id="name">Brand!<br>
+                    Sensitive Skin Body Wash</p>
+                    <p><button id="add_to_cart" type="button">Add To Cart</button><br>
+                        <button id="add_remove" type="button"> - </button>
+                        <input type="text" name="quantity" maxlength="2" size="1" value="0">
+                        <button id="add_remove" type="button">+</button>
+                    </p>
+                        <details>
+                            <summary>View Details</summary>
+                            Something small enough to escape casual notice.
+                        </details>
+                    <p>
+                </td>
+            </tr>
+        </table>
+        </form>
+
+    </section>
+</main>
+
+<!-- ***** Back to top Section *****-->
+
+<section style="margin:0;padding:0; background-color:#e31b6d;" 
+    onclick="backtotop()" 
+    class="backtotop">
+    <h2 style="text-align: center;padding:1rem; color:#fff; margin:0;">
+        <span class="fa fa-angle-double-up spanarrow">
+        </span>
+        Back to top
+    </h2>
+</section>
+
+
+
+<!-- ** Footer **  --->
+<footer>
+    <section class="page-footer">
+
+       
+       <div class="quick-links">
+            <h2 class="text-center"> Quick Links</h2>
+            <ul class="footer-quick-links">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="./sign-in.html">Sign in</a>
+                </li>
+
+                <li>
+                    <a href="./site-map.html">SiteMap</a>
+                </li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+       
+       
+        </div>
+        <!-- Connect with us Section -->
+        <div class="quick-links">
+            <h2 class="text-center">Connect with Us</h2>
+            <ul>
+                
+                <li>
+                    <i class="fa fa-map-marker" 
+                    style="color:#FF0000;
+                    font-size: 1.5rem;
+                    padding: 1.05rem;"></i> 30 Mclaren Drive, L4H 5A1, Ottawa, Canada 
+                  
+
+
+                </li>
+                <li>
+                    <i class="fa fa-phone" 
+                    style="
+                    color:#00BFFF;
+                    font-size: 1.5rem;
+                    padding: 1.05rem;"></i> +1 (647)-867-4343
+                </li>
+                
+            </ul>
+
+           <div class="contactus">
+           
+            <li class="list-inline-item">
+                <a href="mailto:confusion@food.net" 
+                    target="_blank"
+                 type="button" class="button fb">
+                <span class="fa fa-envelope fa-2x spin"></span>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://www.twitter.com/elonmusk" 
+                    target="_blank"
+                    type="button" class="button fb">
+                  <span class="fa fa-twitter fa-2x spin"></span>
+                </a>
+            </li>
+           
+          
+           <li class="list-inline-item">
+            <a href="https://www.facebook.com/" 
+                target="_blank"    
+                type="button" class="button fb">
+              <span class="fa fa-facebook fa-2x spin"></span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/" 
+                target="_blank"
+                type="button" class="button fb">
+              <span class="fa fa-instagram fa-2x spin"></span>
+            </a>
+          </li>
+        
+        </div>
+       
+       
+        </div>
+
+
+        <!-- ** GET UPDATES ** -->
+        <div class="quick-links">
+            <h2 class="text-center"> Get Updates</h2>
+            
+            <form class="get-updates"> 
+                <input type="email" class="form-control" id="inputEmail"
+                    style="width:13rem;height:1.8rem;"
+                placeholder="name@email.com"
+                 data-error="Bruh, that email address is invalid" required>
+                  <br>
+               
+                <div class="submit-btn">
+            
+                    <button type="submit" 
+                        name="submit" 
+                        style="margin-top:1rem;"
+                        class="form-btn submit-footer">Send Message</button> 
+                </div>
+            </form>
+    
+       
+       
+        </div>
+
+       
+       
+    </section> 
+    <div class="footer-copyright text-center ">
+        © All Copyrights are reserved by All Mart Corporations
+    </div>
+   
+
+</footer>
+
+<script>
+    function backtotop() {
+        // window.location.reload();
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+</html>
